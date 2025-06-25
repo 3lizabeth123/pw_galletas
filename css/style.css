@@ -1,10 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FEA116;
-    --light: #F1F8FF;
-    --dark: #0F172B;
+    --primary: rgba(248, 222, 196, 0.9);
+    --light: rgb(255, 255, 255);
+    --dark: rgb(58, 31, 5);
 }
-
 .ff-secondary {
     font-family: 'Pacifico', cursive;
 }
@@ -152,7 +151,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    background: linear-gradient(rgba(57, 29, 18 ), rgba(116, 82, 51, 0.9)), url(../img/bg-hero.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +206,7 @@
 }
 
 
-/*** Service ***/
+/*** PRODUCTOS ***/
 .service-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
@@ -226,7 +225,7 @@
 }
 
 
-/*** Food Menu ***/
+/*** Food MENÚ ***/
 .nav-pills .nav-item .active {
     border-bottom: 2px solid var(--primary);
 }
@@ -374,7 +373,7 @@
 }
 
 
-/*** Testimonial ***/
+/*** Testimonios ***/
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item.center .testimonial-item * {
     transition: .5s;
@@ -476,4 +475,16 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.img-pequena {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+.img-pequena img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
