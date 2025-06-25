@@ -380,8 +380,8 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--primary) !important;
-    border-color: var(--primary) !important;
+    background: var(--dark) !important;
+    border-color: var(--dark) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
@@ -407,7 +407,7 @@
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
+    background: var(--dark);
     border-color: var(--primary);
 }
 
